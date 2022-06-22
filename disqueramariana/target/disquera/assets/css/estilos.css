@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+
+	background-image:url("../imagenes/Fondo.jpg");
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3,h4,h5,h6{
+	color: #ffffff;
+	font-family: 'Aclonica', sans-serif;
+	text-shadow: 4px 4px 5px #0c36f0de;
+	text-align: center;
+}
+
+/* index */
+
+
+#contenedor{
+		max-width: 1550px;
+		width: 100%; 
+		margin: 20px auto;
+		box-shadow: 3px 3px 7px #000000;
+		border-radius: 30px;
+	
+	
+}
+
+
+p{
+font-size:1em;
+} 
+
+header {
+	width: 100%;
+	
+}
+
+nav{
+	background-color: #626f72;
+	width: 100%;
+}
+
+nav ul{
+    list-style: none;  
+}
+
+.barra  li{
+	display: inline-block;
+	max-width: 300px;
+	width: 100%;
+	text-align: center;
+}
+
+.barra li > a{
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	padding: 15px 5px;
+	
+}
+
+.barra li > a:hover{
+	background-color: #8d8888;
+	color: #ffffff;
+	transition: background-color 3s;
+}
+
+.minibarra{
+	position: absolute;
+	background-color: #a89ea0;	
+	visibility: hidden;
+	opacity: 45;
+	text-align: left;
+}
+.minibarra ul{
+	list-style: none;
+}
+
+.minibarra li{
+	max-width: 500px;
+	width: 100%;
+
+}
+
+.minibarra li a{
+	display: block;
+	padding: 15px 10px;
+    color: #ffffff;
+    text-align: left; 
+    text-decoration: none;
+}
+
+
+
+.minibarra li a:hover{
+	background-color: #7a7e7e;
+	color: #000000;
+	transition: background-color 2s;
+}
+
+.barra li:hover .minibarra{
+	visibility: visible;
+	opacity: 0.9;
+	transition: opacity 4s;
+}
+
+
+
+/*FOOTER*/
+#just {
+	background-color:#6b6f72; 
+	width: 100%;
+}
+
+footer{
+	width: 100%;
+	bottom: 0px;
+	background: linear-gradient(#999BBD,#7E99C7);
+	color: #000000;
+	
+}
+
+footer .copy{
+	background-color: #626f72 ;
+	clear: both;
+	padding: 5px;
+	text-align: center;
+}
+
+/*botones*/
+
+#botones{
+	width: 415px;
+	margin: 15px;
+	float: right;
+}
+.botone{
+	background: linear-gradient(#7E99C7,#999BBD);
+	max-width: 130px;
+	width: 100%;
+	padding: 10px 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	border:none;
+	border-radius: 15px;
+	margin-top: 100px;
+	
+}
+
+.botone:hover{
+	background: linear-gradient(#999BBD,#7E99C7);
+}
+.botwo{
+	background: linear-gradient(#FFFFFF, #99DEE0);
+	max-width: 500px;
+	width: 100%;
+	padding: 10px 15px;
+	color: #283071;
+	font-weight: bold;
+	border:none;
+	border-radius: 15px;
+	
+}
+
+.botwo:hover{
+	background: linear-gradient(#99DEE0, #FFFFFF);
+}
+
